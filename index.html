@@ -1,1 +1,74 @@
-Hello World
+<html>
+<head>
+	<title>Rellena tu CV</title>
+</head>
+<body>
+	<div id="contenedor">
+		<div id="cabecera"></div>
+		<div id="principal">
+			<h2>Rellena tu CV</h2>
+			<form>
+				<fieldset>
+					<legend>Datos personales</legend>
+					<label for="provincia">Provincia</label>
+					<br/>
+					<select id="programa" name="programa">
+						<option value="Selecciona" selected="selected">-Selecciona-</option>
+						<option value="Granada">Granada</option>
+						<option value="Malaga">Málaga</option>
+						<option value="Sevilla">Sevilla</option>
+						<option value="Almeria">Almería</option>
+						<option value="Huelva">Huelva</option>
+						<option value="Jaen">Jaen</option>
+						<option value="Cadiz">Cádiz</option>
+						<option value="Córdoba">Córdoba</option>
+					</select>
+					<br/>
+					<br/>
+					<label for="Fecha_nacimiento">Fecha de nacimiento</label>
+					<br/>
+					<input type="text" id="dia" name="dia" size="2"  maxlength="2" />
+					<label for="texto">de</label>
+					<select id="programa" name="programa">
+						<option value="Enero">Enero</option>
+						<option value="Febrero">Febrero</option>
+						<option value="Marzo">Marzo</option>
+						<option value="Abril">Abril</option>
+						<option value="Mayo">Mayo</option>
+						<option value="Junio">Junio</option>
+						<option value="Julio">Julio</option>
+						<option value="Agosto">Agosto</option>
+						<option value="Septiembre">Septiembre</option>
+						<option value="Octubre">Octubre</option>
+						<option value="Noviembre">Noviembre</option>
+						<option value="Diciembre">Diciembre</option>
+					</select>
+					<label for="texto">de</label>
+					<input type="text" id="dia" name="dia" size="4"  maxlength="4"/>
+					<br/>
+					<br/>
+					<label for="Temas_de_interes">Temas de interés</label>
+					<br/>
+					<textarea id="Temainteres" name="Temainteres" cols="40" rows="10">
+					Administracion de base de datos
+					Análisis y programación
+					Arquitectura
+					Calidad
+					ERP,CRM,business Intelligence
+					No se
+					Mas
+					xd
+					</textarea>
+					<br/>
+					<br/>
+					<input type="text" name="prueba" placeholder="Escribe tu nombre">
+
+				</fieldset>
+				
+			</form>
+		</div>
+		<div id="pie"></div>
+	</div>
+
+</body>
+</html>
