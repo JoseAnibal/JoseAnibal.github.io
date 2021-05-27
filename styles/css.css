@@ -1,0 +1,223 @@
+@font-face{
+	font-family: 'valorant.ttf';
+	src: url(valorant.ttf) format("truetype");
+}
+
+h2{
+	text-align: center;
+}
+/*-----------------------------------------------------------------------*/
+body{
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0px;
+	width: 100%;
+}
+
+#menu{
+	display: flex;
+	justify-content: space-between;
+	background-color: #FF5A5A;
+	padding: 1.1em;
+	font-size: 1.3rem;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+/*----------------------------------PARTE IZQUIERDA--------------------------------*/
+
+#izq{
+	text-decoration: none;
+	color: white;
+}
+
+span>a{
+	text-decoration: none;
+	font-size: 1.1em;
+	color: #F6F6F6;
+	font-family: 'valorant.ttf';
+}
+
+
+/*-------------------------------PARTE DERECHA-------------------------*/
+
+#der{
+	color: white;
+	padding-right:70px;
+}
+
+span>i{
+	text-decoration: none;
+	font-size: 1.5em;
+	margin: auto;
+	color: #F6F6F6;
+}
+
+span>a{
+	padding-left: 20px;
+}
+
+/*----------------------------------PRIMERA SECCION-------------------------------------*/
+
+#introduccion{
+	padding: 1em;
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-top: 8em;
+}
+
+#imagen_logo{
+	height: 250px;
+	float: right;
+	padding: 20px 0px 30px 20px;
+}
+
+@media (max-width: 768px){
+	#imagen_logo{
+		width: 100%;
+	}
+}
+/*----------------------------------MAPAS-------------------------------------*/
+#contenido{
+	width: 100%;
+	text-align: center;
+}
+
+hr{
+	width: 40%;
+}
+
+.mapa{
+	height: 250px;
+}
+
+#funciona{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cuadro{
+	display: flex;
+	display: inline-block;
+	width: 40%;
+}
+
+@media(max-width: 1000px){
+	.cuadro{
+	display: flex;
+	display: inline-block;
+	width: 100%;
+	}
+}
+
+
+/*----------------------------------SECCION GALERIA-------------------------------------*/
+#galeria{
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+
+#imagenes_art{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#imagenes_art>img{
+	margin-top: 1.2em;
+	max-width: 100%;
+	height: 200px;
+}
+
+
+/*----------------------------------SECCION TABLA----------------------------------*/
+
+#tabla{
+	border: 1px solid #F53A3A;
+	border-collapse: collapse;
+	margin: auto;
+	margin-top: 1.3em;
+}
+
+td, th, tr{
+	border: 1px solid #F53A3A;
+}
+
+#centrar_tabla{
+	text-align: center;
+}
+
+/*----------------------------------SECCION FORMULARIO----------------------------------*/
+
+#seccion3{
+	margin: auto;
+	max-width: 1000px;
+	margin-top: 2em;
+	margin-bottom: 1.3em;
+	text-align: center;
+}
+
+form>span{
+	margin-top: 5em;
+}
+
+#seccion3>form{
+	margin-top: 2em;
+}
+
+#seccion_1{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#seccion_2{
+	margin-top: 1.3em;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#enviar{
+	background-color: #43C248;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 25%;
+	opacity: 0.9;
+	text-shadow: 2px 2px 4px #333333;
+}
+
+#limpiar{
+	background-color: #E51B62;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    text-shadow: 2px 2px 4px #333333;
+}
+/*----------------------------------FOOTER--------------------------------------*/
+
+footer{
+	color: #FFFFFF;
+	background-color: #FF5A5A;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+a{
+	text-decoration: none;
+	color: #FFECEC;
+}
+
+a:hover{
+	color: #A4A4A4;
+}
