@@ -75,6 +75,8 @@ span>a{
 @media (max-width: 768px){
 	#imagen_logo{
 		width: 100%;
+		height: 200px;
+		min-height: 150px;
 	}
 }
 /*----------------------------------MAPAS-------------------------------------*/
@@ -88,6 +90,7 @@ hr{
 }
 
 .mapa{
+	min-height: 150px;
 	height: 250px;
 }
 
@@ -135,18 +138,27 @@ hr{
 /*----------------------------------SECCION TABLA----------------------------------*/
 
 #tabla{
-	border: 1px solid #F53A3A;
+	border: 1px solid #000000;
 	border-collapse: collapse;
 	margin: auto;
 	margin-top: 1.3em;
 }
 
 td, th, tr{
-	border: 1px solid #F53A3A;
+	border: 1px solid #000000;
 }
 
 #centrar_tabla{
 	text-align: center;
+}
+
+thead{
+	background-color: #313131;
+	color: #FFFFFF;
+}
+
+#personajes table tbody tr:nth-child(2n+1){
+	background-color: #FFB3B3;
 }
 
 /*----------------------------------SECCION FORMULARIO----------------------------------*/
@@ -211,6 +223,7 @@ footer{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	width: 100%;
 }
 
 a{
